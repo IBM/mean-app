@@ -12,7 +12,7 @@ By running this code, you'll understand how to:
 1. The user views the AngularJS web app with a browser.
 2. With both components written in Node.js, the AngularJS front end communicates with the Express back end via RESTful APIs.
 3. The back-end Express application uses the Mongo database for storing and retrieving data.
-4. Back-end results are communicated back to the front end.
+4. Back-end results are communicated back to the the front end.
 5. Front-end results are rendered in a human readable format to the user.
 
 ## Included Components
@@ -71,7 +71,7 @@ The starter project supports the concept of dev mode and release mode.  In dev m
     ibmcloud dev shell run-dev &
     ```
 
-    A web server will runs on port `3000` and the app itself runs on port `3100`. The web server and app will automatically reload if changes are made to the source.
+    A web server will runs on port 3000 and the app itself runs on port 3100. The web server and app will automatically reload if changes are made to the source.
 
 4. Run the app in interactive debug mode with command:
 
@@ -79,7 +79,7 @@ The starter project supports the concept of dev mode and release mode.  In dev m
     ibmcloud dev debug
     ```
 
-    The app listens on port `5858` for the debug client to attach to it, and on port `3000` for app requests.
+    The app listens on port 5858 for the debug client to attach to it, and on port 3000 for app requests.
 
 #### Working in release mode
 
@@ -162,7 +162,7 @@ Now that we have a Dockerized version of our app running, before we push it to p
 
 ### Provisioning an instance of MongoDB
 
-* Create a managed instance of MongoDB by searching for **Compose for MongoDB** in the [Catalog](https://console.bluemix.net/catalog/)
+*  Create a managed instance of MongoDB by searching for **Compose for MongoDB** in the [Catalog](https://console.bluemix.net/catalog/)
 * Once created go to the _Service credentials_ menu and create a new credential.
 * Copy the `uri` to a text file, we'll need to parse the content out.
 * From the `uri` we will need to extract the `username`, `password`, and `mongo_url`. The text is in the form of `mongodb://{username}:{password}@{mongo_url}`.
