@@ -7,6 +7,8 @@ By running this code, you'll understand how to:
 * Create an application for monitoring and distributed tracing using App Metrics
 * Deploy an application using the IBM Cloud Developer Tools CLI or natively with Kubernetes or Cloud Foundry
 
+![](https://github.com/IBM/pattern-utils/raw/master/mern-starter/mean-architecture.png)
+
 ## Flow
 
 1. The user views the AngularJS web app with a browser.
