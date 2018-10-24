@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server/server.js",
     "debug": "npm-run-all --parallel client-reload-proxy inspector",
-    "test": "nyc mocha",
+    "test": "nyc mocha --exit",
     "dev": "npm-run-all --parallel client-reload-proxy server-reload",
     "build": "webpack --progress --config webpack.prod.js",
     "postinstall": "npm run build",
