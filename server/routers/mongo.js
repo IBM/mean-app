@@ -66,7 +66,7 @@ module.exports = function(app){
 
 	var sess = {
 	  store: new MongoStore({ mongooseConnection: mongoose.connection }),
-	  name: 'mern example',
+	  name: 'mean example',
 	  secret: 'ninpocho',
 	  resave: false,
 	  saveUnitialized: true,
