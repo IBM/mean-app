@@ -35,6 +35,8 @@ By running this code, you'll understand how to:
 
 ## Getting Started
 
+> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://console.bluemix.net/developer/appservice/create-app?defaultDeploymentToolchain=&defaultLanguage=NODE&env_id=ibm%3Ayp%3Aus-south&navMode=catalog&starterKit=08739382-bfd9-349c-97da-47a5b8be1b99), which automatically provisions required services, and injects service credentials into a custom fork of this pattern.
+
 Ensure [IBM Cloud Developer Tools](https://github.com/IBM-Cloud/ibm-cloud-developer-tools) is installed. To install on MacOS and Linux, run:
 
 ```
