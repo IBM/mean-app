@@ -35,7 +35,7 @@ By running this code, you'll understand how to:
 
 ## Getting Started
 
-> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://cloud.ibm.com/developer/appservice/apps/be38cf5f-7ec4-4d32-86e7-77ec073dd5cc), which automatically provisions required services, and injects service credentials into a custom fork of this pattern.
+> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://cloud.ibm.com/developer/appservice/create-app?starterKit=d3ac3372-54c6-3f96-bf5f-5e397c11ab7b), which automatically provisions required services, and injects service credentials into a custom fork of this pattern.
 
 Ensure [IBM Cloud Developer Tools](https://github.com/IBM-Cloud/ibm-cloud-developer-tools) is installed. To install on MacOS and Linux, run:
 
