@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
+[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
 
 # Create and deploy a cloud native web application using the MEAN (MongoDB, Express, AngularJS, Node.js) stack
 
@@ -21,9 +21,9 @@ By running this code, you'll understand how to:
 
 ## Included Components
 
-* [IBM Cloud](https://console.bluemix.net/docs/overview/ibm-cloud.html#overview): Provides a computing platform that includes a catalog of cloud services which can be integrated with PaaS and IaaS to build business applications.
-* [Kubernetes Cluster](https://console.bluemix.net/docs/containers/container_index.html): Create and manage your own cloud infrastructure and use Kubernetes as your container orchestration engine.
-* [MongoDB](https://console.bluemix.net/docs/infrastructure/database-tools/mongodb-topic-description.html#mongodb): Fully featured NoSQL server that is horizontally scalable to meet your enterprise class database service needs.
+* [IBM Cloud](https://cloud.ibm.com/docs/overview/ibm-cloud.html#overview): Provides a computing platform that includes a catalog of cloud services which can be integrated with PaaS and IaaS to build business applications.
+* [Kubernetes Cluster](https://cloud.ibm.com/docs/containers/container_index.html): Create and manage your own cloud infrastructure and use Kubernetes as your container orchestration engine.
+* [MongoDB](https://cloud.ibm.com/docs/infrastructure/database-tools/mongodb-topic-description.html#mongodb): Fully featured NoSQL server that is horizontally scalable to meet your enterprise class database service needs.
 * [Express](https://expressjs.com/): Most popular and minimalistic web framework for creating API and Web server.
 * [AngularJS](https://angular.io/): JavaScript library for building user interfaces.
 
@@ -119,7 +119,7 @@ Whether you run in dev mode or release mode, you have the same default URLs avai
 
 These projects are designed for deployment to IBM Cloud through the IBM Cloud Developer Tools CLI, to either Kubernetes (public or private cloud) or Cloud Foundry (public cloud only).
 
-Before deploying your MEAN app, you will need to sign in to [IBM Cloud](https://console.bluemix.net/docs/cli/reference/ibmcloud/bx_cli.html#ibmcloud_login) via Command Line.
+Before deploying your MEAN app, you will need to sign in to [IBM Cloud](https://cloud.ibm.com/docs/cli/reference/ibmcloud/bx_cli.html#ibmcloud_login) via Command Line.
 
  ```
 ibmcloud login
@@ -168,7 +168,7 @@ Now that we have a Dockerized version of our app running, before we push it to p
 
 ### Provisioning an instance of MongoDB
 
-*  Create a managed instance of MongoDB by searching for **Compose for MongoDB** in the [Catalog](https://console.bluemix.net/catalog/)
+*  Create a managed instance of MongoDB by searching for **Compose for MongoDB** in the [Catalog](https://cloud.ibm.com/catalog/)
 * Once created go to the _Service credentials_ menu and create a new credential.
 * Copy the `uri` to a text file, we'll need to parse the content out.
 * From the `uri` we will need to extract the `username`, `password`, and `mongo_url`. The text is in the form of `mongodb://{username}:{password}@{mongo_url}`.
@@ -232,12 +232,12 @@ Open `bindings.yaml` under the chart directory to add Mongo references. Add the 
 
 ## Links
 
-* [Node Programming Guide](https://console.bluemix.net/docs/node/index.html#getting-started-tutorial): Tutorial on Node.js app development.
-* [Add a Service to Your App](https://console.bluemix.net/docs/apps/reqnsi.html#add_service): Learn how to add a resource to your cloud native app.
+* [Node Programming Guide](https://cloud.ibm.com/docs/node/index.html#getting-started-tutorial): Tutorial on Node.js app development.
+* [Add a Service to Your App](https://cloud.ibm.com/docs/apps/reqnsi.html#add_service): Learn how to add a resource to your cloud native app.
 
 ## Learn More
 
-* [Starter Kits](https://console.bluemix.net/developer/appservice/starter-kits/): Enjoyed this application? Check out our Starter Kits.
+* [Starter Kits](https://cloud.ibm.com/developer/appservice/starter-kits/): Enjoyed this application? Check out our Starter Kits.
 * [Architecture Center](https://www.ibm.com/cloud/garage/architectures): Explore Architectures that provide flexible infrastructure solutions.
 
 ## License
