@@ -51,7 +51,7 @@ form:
       $ref: deploy.json
     parameters:
       app-name: meanexample
-      dev-region: "{{region}}"
+      dev-region: "{{deploymentRegion}}"
       api-key: "{{api-key}}"
-      dev-space: "{{space}}"
-      dev-organization: "{{organization}}"
+      dev-space: "{{deploymentSpace}}"
+      dev-organization: "{{deploymentOrg}}"
