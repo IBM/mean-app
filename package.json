@@ -7,12 +7,12 @@
     "node": "^8.11.1"
   },
   "scripts": {
-    "start": "npm prune --production && NODE_ENV=production && export NPM_CONFIG_PRODUCTION=true && node server/server.js",
+    "start": "node server/server.js",
     "debug": "npm-run-all --parallel client-reload-proxy inspector",
     "test": "nyc mocha --exit",
     "dev": "npm-run-all --parallel client-reload-proxy server-reload",
     "build": "webpack --progress --config webpack.prod.js",
-    "postinstall": "export NPM_CONFIG_PRODUCTION=false npm run build",
+    "postinstall": "npm run build",
     "lint": "eslint src",
     "client-reload": "webpack-dev-server --host 0.0.0.0 --history-api-fallback --progress --inline --config webpack.dev-standalone.js",
     "client-reload-proxy": "webpack-dev-server --host 0.0.0.0 --history-api-fallback --inline --config webpack.dev-proxy.js",
