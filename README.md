@@ -62,7 +62,7 @@ The starter project supports the concept of dev mode and release mode.  In dev m
    ibmcloud dev build --debug
    ```    
 
-   > *NOTE:* Ensure a Docker daemon is running before issuing this command
+   > *NOTE:* Ensure a Docker daemon is running before issuing this command.
 
 2. Run project unit tests with the command:
    ```
@@ -230,7 +230,7 @@ Open `bindings.yaml` under the chart directory to add Mongo references. Add the 
 ## Links
 
 * [Node Programming Guide](https://cloud.ibm.com/docs/node?topic=nodejs-getting-started): Tutorial on Node.js app development.
-* [Adding a service to your app](https://cloud.ibm.com/docs/apps?topic=creating-apps-add-resource): Learn how to add a resource to your cloud native app.
+* [Adding a service to your app](https://cloud.ibm.com/docs/apps?topic=creating-apps-add-resource): Learn how to add a service to your cloud native app.
 
 ## Learn More
 
