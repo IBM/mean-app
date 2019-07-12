@@ -20,10 +20,11 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 	inject: 'body'
 });
 
-const CopyWebpackPluginConfig= new CopyWebpackPlugin([{
-	from: './client/component.html',
-	to: path.resolve(__dirname, 'public', 'templates')
-}]);
+const CopyWebpackPluginConfig= new CopyWebpackPlugin([
+	{ from: './client/component.html', to: path.resolve(__dirname, 'public', 'templates') },
+ 	{ from: './client/404.html', to: path.resolve(__dirname, 'public') },
+	{ from: './client/500.html', to: path.resolve(__dirname, 'public') }
+]);
 
 module.exports = {
 	entry: './client/app.js',
