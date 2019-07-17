@@ -69,7 +69,7 @@ module.exports = function(app){
 	  name: 'mean example',
 	  secret: 'ninpocho',
 	  resave: false,
-	  saveUnitialized: true,
+	  saveUninitialized: true,
 	  cookie: {}
 	};
 
