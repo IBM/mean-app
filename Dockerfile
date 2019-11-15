@@ -1,7 +1,7 @@
 FROM node:8-stretch
 
 # Change working directory
-WORKDIR "/app"
+WORKDIR /app
 
 # Update packages and install dependency packages for services
 RUN apt-get update \
@@ -11,7 +11,7 @@ RUN apt-get update \
 
 # Install npm  packages
 COPY package.json /app
-RUN cd /app; npm install; 
+RUN cd /app; npm install;
 COPY . /app
 RUN npm run build; npm prune --production
 
