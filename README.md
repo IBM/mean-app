@@ -2,12 +2,12 @@
 
 # Create and deploy a cloud native web application using the MEAN (MongoDB, Express, AngularJS, Node.js) stack
 
-This repository has code to create a web app that is pre-configured with the MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We use IBM Cloud services to host our application; the IBM Cloud Developer Tools CLI to run and debug locally; and lastly provide native commands to deploy to Kubernetes or Cloud Foundry.
+This repository has code to create a web app that is pre-configured with the MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We use IBM Cloud services to host our application; the IBM Cloud Developer Tools CLI to run and debug locally; and lastly provide native commands to deploy your app to Cloud Foundry, a Kubernetes cluster, or a Red Hat OpenShift cluster. OpenShift is available only through a standard cluster, which requires you to have a billable account.
 
 By running this code, you'll understand how to:
 * Build an application that uses MongoDB, Express.js, AngularJS, and Node.js.
 * Create an application for monitoring and distributed tracing using App Metrics.
-* Deploy an application using the IBM Cloud Developer Tools CLI or natively with Kubernetes or Cloud Foundry.
+* Deploy an application using the IBM Cloud Developer Tools CLI or natively with Cloud Foundry, Kubernetes, or OpenShift.
 
 ![](https://github.com/IBM/pattern-utils/raw/master/mern-starter/mean-architecture.png)
 
