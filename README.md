@@ -2,12 +2,12 @@
 
 # Create and deploy a cloud native web application using the MEAN (MongoDB, Express, AngularJS, Node.js) stack
 
-This repository has code to create a web app that is pre-configured with the MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We use IBM Cloud services to host our application; the IBM Cloud Developer Tools CLI to run and debug locally; and lastly provide native commands to deploy to Kubernetes or Cloud Foundry.
+This repository has code to create a web app that is pre-configured with the MEAN stack (MongoDB, Express.js, AngularJS, Node.js). We use IBM Cloud services to host our application; the IBM Cloud Developer Tools CLI to run and debug locally; and lastly provide native commands to deploy your app to Cloud Foundry or a Kubernetes cluster. You can also deploy your app to a Red Hat OpenShift cluster, but you must use the IBM Cloud console instead of the CLI. OpenShift is available only through a standard cluster, which requires you to have a billable account.
 
 By running this code, you'll understand how to:
 * Build an application that uses MongoDB, Express.js, AngularJS, and Node.js.
 * Create an application for monitoring and distributed tracing using App Metrics.
-* Deploy an application using the IBM Cloud Developer Tools CLI or natively with Kubernetes or Cloud Foundry.
+* Deploy an application using the IBM Cloud Developer Tools CLI or natively with Cloud Foundry or Kubernetes. For OpenShift deployments, use the IBM Cloud console instead of the CLI.
 
 ![](https://github.com/IBM/pattern-utils/raw/master/mern-starter/mean-architecture.png)
 
@@ -35,7 +35,7 @@ By running this code, you'll understand how to:
 
 ## Getting Started
 
-> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://cloud.ibm.com/developer/appservice/create-app?starterKit=d3ac3372-54c6-3f96-bf5f-5e397c11ab7b), which automatically provisions required services, and injects service credentials into a custom fork of this pattern.
+> As an alternative to the steps below, you can [create this project as a starter kit on IBM Cloud](https://cloud.ibm.com/developer/appservice/create-app?starterKit=d3ac3372-54c6-3f96-bf5f-5e397c11ab7b), which automatically provisions required services and injects service credentials into a custom fork of this pattern. Cloud Foundry, Kubernetes, and Red Hat OpenShift are available as deployment targets when you use the starter kit.
 
 Install the latest version of the [IBM Cloud Developer Tools](https://github.com/IBM-Cloud/ibm-cloud-developer-tools) CLI.
 
@@ -237,4 +237,3 @@ Open `bindings.yaml` under the chart directory to add Mongo references. Add the 
 This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 [Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
-
