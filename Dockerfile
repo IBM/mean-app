@@ -1,7 +1,7 @@
 FROM node:8-stretch
 
 # Change working directory
-WORKDIR "/app"
+WORKDIR /app
 
 # Update packages and install dependency packages for services
 RUN apt-get update \
@@ -9,11 +9,13 @@ RUN apt-get update \
  && apt-get clean \
  && echo 'Finished installing dependencies'
 
-# Install npm  packages
-COPY package.json /app
-RUN cd /app; npm install; 
+# Install npm production packages
+COPY package.json webpack.common.js webpack.dev-proxy.js webpack.dev-standalone.js webpack.prod.js /app/
+RUN cd /app; npm install --production
+COPY /client /app/client/
+RUN npm install --only=dev; npm run build; npm prune --production
+
 COPY . /app
-RUN npm run build; npm prune --production
 
 ENV NODE_ENV production
 ENV PORT 3000
